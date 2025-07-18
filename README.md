@@ -145,6 +145,7 @@
       <sub><code>Streamlit UI for the RAG Bot's chat interface.</code></sub>
     - 📄 [api_client.py](https://github.com/beepboop1212/RAG_bot/blob/master/project/frontend/api_client.py)  
       <sub><code>Communicates between frontend and FastAPI backend.</code></sub>
+</details>
 
 <details> <!-- bbox Submodule -->
 	<summary><b>bbox</b></summary>
@@ -157,7 +158,7 @@
 		</table>
 	</blockquote>
 </details>
-</details>
+
 
 
 ---
