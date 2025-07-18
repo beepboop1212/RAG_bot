@@ -157,6 +157,7 @@
 		</table>
 	</blockquote>
 </details>
+</details>
 
 
 ---
