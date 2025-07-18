@@ -1,0 +1,13 @@
+# gemini_streamlit_chat/requirements.txt
+fastapi
+uvicorn[standard]
+streamlit
+psycopg2-binary
+sqlalchemy
+python-dotenv
+pydantic
+pydantic-settings
+google-generativeai
+langchain
+langchain-google-genai
+requests
