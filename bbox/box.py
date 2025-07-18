@@ -8,7 +8,7 @@ import requests # To load image from URL
 # --- Configuration ---
 # Securely load your API key (recommended: use environment variables)
 # For Google AI Studio:
-GOOGLE_API_KEY = "AIzaSyCh-4jpvU7sNUNz3pi5t6Iq35G9IzQt3U4"
+GOOGLE_API_KEY = "api_key"
 if not GOOGLE_API_KEY:
     raise ValueError("Please set the GOOGLE_API_KEY environment variable.")
 
