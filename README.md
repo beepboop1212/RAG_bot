@@ -34,13 +34,76 @@
 
 ## 📍 Overview
 
-<code>❯ REPLACE-ME</code>
+# 🤖 RAG-Based Chatbot with Multimodal Extensions
+
+This repository features a Retrieval-Augmented Generation (RAG) chatbot built using **LangChain** and **Gemini API**, developed incrementally to explore and integrate modern LLM capabilities with traditional and no-code environments. It also includes experiments in multimodal reasoning and quiz generation via LLMs.
+
+## 🚀 Key Features
+
+- **🔗 LangChain + Gemini API**  
+  Core RAG functionality built using LangChain and Gemini, enabling retrieval-based conversational intelligence.
+
+- **📦 Local Vector Store with pgvector**  
+  Embeddings stored efficiently using PostgreSQL with the `pgvector` extension.
+
+- **🧰 DBeaver Integration**  
+  Database verification and inspection via DBeaver for real-time debugging and validation.
+
+- **🖧 FastAPI Backend**  
+  Clean separation of backend logic using FastAPI for scalable integration with frontends or APIs.
+
+- **🧠 Prompt Engineering**  
+  Sophisticated system prompts crafted to control the LLM’s behavior and ensure structured, relevant responses.
+
+- **✅ Pydantic Models**  
+  Enforced structured LLM output using Pydantic, promoting schema adherence and data validation.
+
+- **🗂️ Iterative Project Structuring**  
+  Codebase maintained and refactored iteratively for cleanliness, scalability, and maintainability.
+
+- **🌐 ngrok Deployment**  
+  Exposed the app for external testing and live demonstrations using ngrok.
 
 ---
 
-## 👾 Features
+## 📦 Additional Highlights
 
-<code>❯ REPLACE-ME</code>
+- **🧩 No-Code Replication via N8N**  
+  Rebuilt core logic using N8N’s no-code visual editor to compare flexibility vs. speed of development.
+
+- **📚 Streamlit Quiz Generator**  
+  Tool to scrape content from a user-given URL and auto-generate a quiz using LLM output, with strict formatting and validation.
+
+- **🖼️ Multimodal LLM Exploration**  
+  Attempted bounding box generation from images using LLMs, evaluating their performance (~6.5/10) for visual-spatial tasks traditionally handled by CV models like YOLO.
+
+---
+
+## 🧠 Learning Outcomes
+
+- Practical deployment of RAG systems  
+- Full-stack architecture with FastAPI and PostgreSQL  
+- Prompt engineering and LLM-guided output control  
+- No-code platform evaluation with N8N  
+- Multimodal experimentation using LLMs
+
+---
+
+## 🛠️ Tech Stack
+
+- LangChain  
+- Gemini API  
+- FastAPI  
+- PostgreSQL + pgvector  
+- Pydantic  
+- DBeaver  
+- Streamlit  
+- N8N  
+- ngrok  
+
+---
+
+> Feel free to clone, fork, and explore this project. Contributions are welcome!
 
 ---
 
